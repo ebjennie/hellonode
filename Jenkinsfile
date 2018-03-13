@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("valentinc/nodeapp")
+        app = docker.build("dock2/nodeapp")
     }
 
     stage('Test image') {
